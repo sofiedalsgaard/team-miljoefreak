@@ -1,39 +1,30 @@
 h1 {
   font-size: 120px;
   font-weight: 900;
+  color: black;
 
 }
 
 .contact {
   float:left;
   width:15%;
-  margin-right:2%;
-  background: #eee;
+  margin-left:5px;
+  color: black;
+
 }
+
 .title {
 text-align:center;
-
-
-
-  background: #aaa;
+background: green;
 
 }
+
 .picture {
   text-align:center;
-  background-color: #bbb;
+color: white;
 }
 
-.kolonne {
-  float:left;
-  width:28%;
-  margin-right:2%;
-  background:#ccc;
-  color:black;
-  border:1px;
 
-  padding:10px;
-  text-align:center;
-}
 .image {
   height: 300px;
   width: 300px;
@@ -44,12 +35,20 @@ text-align:center;
   text-align:center;
     font-size: 26px;
     text-transform: uppercase;
+
 }
 
-.allekolonner {
-  margin: auto;
 
-  width: 99%;
-  text-align:center;
-  background: red;
+body {
+  background: white;
+}
+.divall {
+  text-align: center;
+
+
+}
+.divinside {
+  display:inline-block;
+  width: 28%;
+background:green;
 }
