@@ -1,0 +1,55 @@
+h1 {
+  font-size: 120px;
+  font-weight: 900;
+
+}
+
+.contact {
+  float:left;
+  width:15%;
+  margin-right:2%;
+  background: #eee;
+}
+.title {
+text-align:center;
+
+
+
+  background: #aaa;
+
+}
+.picture {
+  text-align:center;
+  background-color: #bbb;
+}
+
+.kolonne {
+  float:left;
+  width:28%;
+  margin-right:2%;
+  background:#ccc;
+  color:black;
+  border:1px;
+
+  padding:10px;
+  text-align:center;
+}
+.image {
+  height: 300px;
+  width: 300px;
+
+}
+
+.produktkategori {
+  text-align:center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.allekolonner {
+  margin: auto;
+
+  width: 99%;
+  text-align:center;
+  background: red;
+}
