@@ -15,13 +15,13 @@ h1 {
 
 .title {
 text-align:center;
-background: green;
+background: lightgrey;
 
 }
 
 .picture {
   text-align:center;
-color: white;
+color: black;
 }
 
 
@@ -40,7 +40,7 @@ color: white;
 
 
 body {
-  background: white;
+  background: darkseagreen;
 }
 .divall {
   text-align: center;
@@ -50,5 +50,5 @@ body {
 .divinside {
   display:inline-block;
   width: 28%;
-background:green;
+background:lightgrey;
 }
