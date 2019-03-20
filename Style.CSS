@@ -14,51 +14,85 @@ h1 {
 }
 
 .title {
-text-align:center;
-background: lightgrey;
+  text-align:center;
+  background: forestgreen;
 
 }
 
 .picture {
   text-align:center;
-color: black;
+  color: black;
 
 }
 
 
 .image {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 
 }
 
 .produktkategori {
   text-align:center;
-    font-size: 26px;
-    text-transform: uppercase;
+  font-size: 26px;
+  text-transform: uppercase;
 
 }
+.produktvisning {
+  display:flex;
+  justify-content: space-between;
+}
+.produktbeskrivelse{
+  flex-grow: 1;
+  text-align:center;
+  vertical-align: top;
+}
+.produktbillede {
+  width: 49vw;
 
+}
+.produkttekst {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.irc_mi {
+  height: 90px;
+  width: 90px;
+}
+
+.snipcart-add-item{
+  height: 50px;
+  width: 170px;
+
+}
 
 body {
   background: darkseagreen;
 }
 .divall {
   text-align: center;
-  
+
 
 
 }
 .divinside {
   display:inline-block;
   width: 28%;
-background:lightgrey;
+  background:forestgreen;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 70px;
 }
 h3 {
   color: Black;
 }
-.brødtekst {
-  width: 90%;
 
-
+h4 {
+  font-size: 80px;
+  font-weight: 1000;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
